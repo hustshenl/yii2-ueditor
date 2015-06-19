@@ -28,7 +28,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?php
-use wenyuan\ueditor\Ueditor;
+use hustshenl\ueditor\Ueditor;
 
 echo Ueditor::widget(['id'=>"newstext"]); 
 

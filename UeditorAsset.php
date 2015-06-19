@@ -1,5 +1,5 @@
 <?php
-namespace wenyuan\ueditor;
+namespace hustshenl\ueditor;
 
 use yii\web\AssetBundle;
 use wenyuan;
@@ -8,7 +8,7 @@ class UeditorAsset extends AssetBundle{
     /*
      * @inheritdoc
      */
-    public $sourcePath='@wenyuan\ueditor\assets';
+    public $sourcePath='@hustshenl\ueditor\assets';
 
     public $css=[
         'css/ueditor.min.css',  

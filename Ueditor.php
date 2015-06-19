@@ -6,14 +6,14 @@
  * qq		1510033691
  *
  */
-namespace wenyuan\ueditor;
+namespace hustshenl\ueditor;
 
 use Yii;
 use yii\widgets\InputWidget;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\View;
-use wenyuan\ueditor\UeditorAsset;
+use hustshenl\ueditor\UeditorAsset;
 
 class Ueditor extends InputWidget
 {
@@ -40,7 +40,7 @@ class Ueditor extends InputWidget
     	}
     	
     	$this->events = $this->options;
-    	\Yii::setAlias('@wenyuan\ueditor\assets', '@vendor/wenyuan/yii2-ueditor/assets');
+    	\Yii::setAlias('@hustshenl\ueditor\assets', '@vendor/hustshenl/yii2-ueditor/assets');
         if(empty($this->name)){
             $this->name=$this->hasModel() ? Html::getInputName($this->model, $this->attribute): $this->id;
         }
@@ -70,7 +70,7 @@ class Ueditor extends InputWidget
     private function renderTag() {
     	$options = [
     		'type'	=> 'text/plain',
-    		'name'	=> $this->id,
+    		'name'	=> $this->name,
     		'id'	=> $this->id
 		];
     	
