@@ -2,7 +2,7 @@
 namespace hustshenl\ueditor;
 
 use yii\web\AssetBundle;
-use wenyuan;
+use hustshenl;
 
 class UeditorAsset extends AssetBundle{
     /*

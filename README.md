@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist wenyuan/yii2-ueditor "*"
+php composer.phar require --prefer-dist hustshenl/yii2-ueditor "*"
 ```
 
 or add
 
 ```
-"wenyuan/yii2-ueditor": "*"
+"hustshenl/yii2-ueditor": "*"
 ```
 
 to the require section of your `composer.json` file.
