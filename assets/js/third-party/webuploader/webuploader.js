@@ -3127,7 +3127,7 @@
              * @for Uploader
              * @description 上传并发数。允许同时最大上传进程数。
              */
-            threads: 3,
+            threads: 1,
     
     
             /**
